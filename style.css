@@ -1,0 +1,97 @@
+body {background-image:url(http://www.planwallpaper.com/static/images/6790904-free-background-wallpaper.jpg);
+	;
+		text-align: center;
+	margin: 0;
+padding: 0;
+color: white;
+}
+
+@font-face{ font-family: myFont;
+			src: url(Oranienbaum.ttf); }
+.col-sm-6 {background-color: transparent;
+color: white;}			
+
+.naslov{font-family: myFont;
+		font-size: 60px;
+		letter-spacing: 15px;
+		background-color: black;
+		border: 1px solid white;
+		color: #c0c5ce;
+		}
+
+.navigacija li { display: inline-block;
+				text-align: right;
+				color: white;
+				font-size: 25px;
+				text-decoration: none;
+				padding: 9px 90px; 
+			   border-right: 1px solid white;
+				background-color: black;
+				}
+li:last-child{border-right: none;}
+
+.navigacija li a{color: #c0c5ce; text-decoration: none;	
+
+}
+a:hover {background-color:gray;
+			display: inline-block;
+			}
+.slika1 {position: cover;
+	width: 90%; height: 450px;
+	margin-top: 20px;
+}
+.slideshow{position:cover;
+margin-top: 50px;
+margin-left: 150px}
+
+.linija{color:black;}
+
+.pasus-o-nama{font-size:25px;
+				text-align: justify-all;
+				color: #c0c5ce;
+				letter-spacing: -1px;
+				font-family: myFont;}
+.moto{text-align: center;
+       font-style: italic;
+       font-size: 25px;
+       color: #c0c5ce;}
+.dostava{font-size: 23px;
+text-align: left;
+color: #c0c5ce;}
+
+#o-nama{font-size: 35px;
+text-align: left;
+font-family: italic;}
+
+.dostava-p{font-size: 25px;
+			font: "lucida sans";
+			text-align: center;
+		     color: #c0c5ce;}
+
+.kontakt{font-size: 30px;
+text-align: center;}
+
+.pasuskontakt {font-size: 23px; color: #c0c5ce;}
+
+.slika2{width:42px;height:42px;}
+.vrsta{float:left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 500px;
+   height: 600px;
+   border: 1px solid black;
+}
+.pp{font-size: 20px;}
+
+
+.tabela{border: 1px solid black;
+		padding: 10px;
+		color: #cccccc;
+		float: center;
+		margin-left: 50px;
+		margin-top:135px; 
+
+		}
+.capri{display: block;
+		margin: auto;
+border: 1px solid black;}

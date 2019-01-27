@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pizzeria Italiana</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="refresh" content="">
+	
+	 <meta name="description" content="Domaći zadatak iz predmeta veb dizajn. " >
+    <meta name="author" content="Andjela Stanic | IS 104/17 | andjelais10417@gs.viser.edu.rs " >
+    <meta name="keywords" content="biografija, andjela stanic, veb dizajn, domaci" >
+</head>
+<body>
+<i> <h1 class="naslov">Pizzeria Italiana </h1></i>
+<nav >
+	<b> <ul class="navigacija">
+		<li><a href="picerija.html">Home</a></li><!--
+		--><li> <a href="#o-nama">O nama</a></li><!--
+		--><li><a href="jelovnik.html">Jelovnik</a></li><!--
+		--><li><a href="#kontakt">Kontakt</a></li>
+		</ul> </b>
+</nav>
+<div class="slideshow">
+<img class="slika1" src="http://kingrichiespizza.com/wp-content/uploads/2015/12/d5a3498cfc9e53130b5f815ef44713b7_Jet.jpg" alt="Pizza">
+<img class="slika1" src="https://images6.alphacoders.com/412/412226.jpg" alt="Italian Pizza">
+<img class="slika1" src="http://www.mysticpizza.com/admin/resources/pizza-pepperoni-w857h456.jpg" >
+<img class="slika1" src="http://manoli-pizza.com/wp-content/uploads/2015/08/PIZZA-Manoli.jpg">
+</div>
+<script>
+var myIndex = 1;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slika1");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<hr>
+<i> <h2 id="o-nama">O nama</h2> </i>
+<p class="pasus-o-nama"> Picerija <i> Italiana </i> je kuća prave italijanske kuhinje. Pice pripremljene u peći na bukova drva,
+ naš su zaštitni znak.
+ Odličan ambijent i ljubazno osoblje, uz prijatnu atmosferu upotpuniće Vaš doživljaj italijanske hrane.
+  Da li smo dobri zaista, uverićete se nakom prvog zalogaja. <p class="moto"> O kvalitetu naših pica ne moramo da govorimo, o tome pričaju oni koji su ih probali. </i> </p> </p>
+<p class="dostava" > Vršimo besplatnu dostavu naše hrane do Vašeg kućnog praga. <br> Gratis palačinka za naručene dve ili više pice. </p>
+<hr>
+<i> <address id="kontakt" class="kontakt">Kontakt <p class="pasuskontakt">Možete nas pronaći na adresi Kralja Petra I 35 u Inđiji. Ukoliko Vam je lakše, možete nas nazvati na broj 022/554-747 i raspitati se o našim cenama ili to možete učiniti klikom <a href="jelovnik.html" target="_blank">ovde.</a> </p> </address></i>
+<hr> <br>
+<a href="http://www.facebook.com" target="_blank"> <img class="slika2" src="http://www.creativeloads.com/foto/png-facebook-icon-194.jpg" alt="Facebook icon"> Pizzeria </a>
+
+<a href="http://www.youtube.com" target="_blank"> <img class="slika2" src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/youtube2-128.png"> pizzeria_mamamia</a>
+<a href="http://www.instagra,.com" target="_blank"> <img class="slika2" src="https://5a5a57ff32a328601212-ee0df397c56b146e91fe14be42fa361d.ssl.cf1.rackcdn.com/icon/instagram_logos_glyph/03H5cHNMt-Jni4pe9u+7/glyph-logo_May2016_200.png"> p_mamamia </a>
+	
+</body>
+</html>
